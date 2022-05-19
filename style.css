@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #2a2a72;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.search-box {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px 0;
+}
+.search__input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-color: #4c2885;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: #fff;
+}
+.search__input::placeholder {
+    color: #bbb;
+}
+.card {
+    max-width: 800px;
+    background-color: #4c2885;
+    padding: 2rem;
+    margin: 0 1rem;
+    border-radius: 20px;
+    display: flex;
+}
+.card__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #2a2a72;
+}
+.card__info{
+    color: #eee;
+    margin-left: 2rem;
+}
+.card__info h2{
+    color: #eee;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.card__info p{
+    margin: 16px 0;
+}
+.card__nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 1rem 0;
+}
+.card__item strong{
+    margin-left: 8px;
+}
+.card__repos .repo{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 8px 8px 0;
+    padding: 4px 8px;
+    background-color: #2a2a72;
+}
+.error{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
